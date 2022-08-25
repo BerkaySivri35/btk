@@ -1,0 +1,53 @@
+header{
+    transition: all 2s;
+}
+header:hover{
+    color: red;
+}
+a{  
+    position: relative;
+    outline: 1px solid black;
+    transition: hover 5s;
+    border-radius: 10px;   
+}
+
+a:hover{
+    background-color: white;
+    
+    color: black;
+    
+}
+
+.bosluk{
+    margin-right: 10px;
+}
+
+svg:hover{
+    background-color: white;
+}
+
+.animation{
+    position: relative; /* Position eklemek önemli*/
+    animation: animasyon 5s ease-in-out; /*infinite tekrar et demek*/
+}
+@keyframes animasyon {
+    from{
+        left: -900px
+    }
+    to {
+        left: 0px;
+    }
+}
+
+.animation2{
+    position: relative; /* Position eklemek önemli*/
+    animation: animasyon2 5s ease-in-out; /*infinite tekrar et demek*/
+}
+@keyframes animasyon2 {
+    from{
+        right: -900px
+    }
+    to {
+        right: 0px;
+    }
+}
