@@ -4,7 +4,7 @@ header{
 header:hover{
     color: red;
 }
-a{  
+li a{  
     position: relative;
     outline: 1px solid black;
     transition: hover 5s;
